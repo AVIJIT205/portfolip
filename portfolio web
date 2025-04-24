@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+*{
+padding: 0;
+margin: 0;
+}
+.main{
+    width: 100%;
+    background-image: url(https://files.123freevectors.com/wp-content/original/154027-abstract-blue-and-white-background-design.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.nav{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-content: center;
+    justify-content: space-between;
+}
+ul{
+    margin-top: 1%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(249, 8, 68);
+    margin-top: 3%;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color: rgb(64, 20, 207);
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+
+}
+.info h1{
+    font-size: 65px;
+    color: black;
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color: rgb(29, 209, 20);
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(36,32, 30);
+    margin: 26px 0;
+    padding:10px 18px;
+border-radius: 10px;
+display:inline-block;
+transition: .4s ease;
+}
+.info a:hover{
+    background-color: blue;
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+   border-radius: 45px;
+}
+.image img{
+    position: absolute;
+    height: 120%;
+    left: 35%;
+    bottom: 0;
+    border-radius: 75px;
+    right: 65%;
+
+}
+summary{
+    background-color: rgb(249, 8, 68);
+
+    
+    border: 2px solid black;
+    border-radius: 25px;
+    
+}
+summary  li:hover{
+    color: yellow;
+}
+    </style>
+    <div class="main">
+<div class="nav">
+    <ul>
+ 
+       <li><a href="">HOME</a></li>
+       <li><a href="">ABOUT</a></li>
+       <li><a href="">SKILLS</a></li>
+       <li><a href="">CONTACT</a></li>
+       <details>
+        <summary>PROJECT</summary>
+     <li>. NETFLIX CLONE</li><br>
+     <li>. JOB PORTAL</li><br>
+     <li>. ONLINE QUIZ MAKER</li><br>
+     <li>. E COMMERCE WEBSITE</li><br>
+     <li>. PORTFOLIO</li><br>
+    
+    </details>
+    </ul>
+</div>
+<div class="info">
+    <h3>Hi, I'm Avijit Das</h3>
+    <h1> <span>W</span>EB <span> D</span>ESIGNER</h1>
+   <h3>I Create Web Site</h3>
+   <a href="#">Hire Me</a>
+</div>
+    </div>
+    <div class="image">
+     <img src="pic2.jpeg" alt="image" class="boy">
+    </div>
+   
+</body>
+</html>
